@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semi-Finals</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Semi-Finals</h1>
+    <div id="semis">
+        <div class="matchup">
+            <span id="division1-winner"></span> vs <span id="division2-winner"></span>
+            <button onclick="selectFinalist('division1-winner')">Advance</button>
+            <button onclick="selectFinalist('division2-winner')">Advance</button>
+        </div>
+        <div class="matchup">
+            <span id="division3-winner"></span> vs <span id="division4-winner"></span>
+            <button onclick="selectFinalist('division3-winner')">Advance</button>
+            <button onclick="selectFinalist('division4-winner')">Advance</button>
+        </div>
+    </div>
+    <button onclick="window.location.href='final.html'">Go to Final</button>
+</body>
+</html>

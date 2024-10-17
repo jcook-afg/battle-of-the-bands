@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Seeding</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Enter the Bands and their Seeds</h1>
+    <form id="seedingForm">
+        <h2>Division 1</h2>
+        <div class="division">
+            <input type="text" id="division1-seed1" placeholder="Seed 1" required><br>
+            <input type="text" id="division1-seed2" placeholder="Seed 2" required><br>
+            <!-- Repeat for all 16 seeds -->
+            <input type="text" id="division1-seed16" placeholder="Seed 16" required><br>
+        </div>
+
+        <h2>Division 2</h2>
+        <div class="division">
+            <input type="text" id="division2-seed1" placeholder="Seed 1" required><br>
+            <input type="text" id="division2-seed2" placeholder="Seed 2" required><br>
+            <!-- Repeat for all 16 seeds -->
+            <input type="text" id="division2-seed16" placeholder="Seed 16" required><br>
+        </div>
+
+        <h2>Division 3</h2>
+        <div class="division">
+            <input type="text" id="division3-seed1" placeholder="Seed 1" required><br>
+            <input type="text" id="division3-seed2" placeholder="Seed 2" required><br>
+            <!-- Repeat for all 16 seeds -->
+            <input type="text" id="division3-seed16" placeholder="Seed 16" required><br>
+        </div>
+
+        <h2>Division 4</h2>
+        <div class="division">
+            <input type="text" id="division4-seed1" placeholder="Seed 1" required><br>
+            <input type="text" id="division4-seed2" placeholder="Seed 2" required><br>
+            <!-- Repeat for all 16 seeds -->
+            <input type="text" id="division4-seed16" placeholder="Seed 16" required><br>
+        </div>
+
+        <button type="submit" onclick="saveSeeds()">Save Seeds</button>
+        <button type="button" onclick="window.location.href='division1.html'">Go to Division 1</button>
+    </form>
+</body>
+</html>
